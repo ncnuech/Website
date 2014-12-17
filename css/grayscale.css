@@ -319,11 +319,12 @@ ul.banner-social-buttons {
 }
 
 .course-link {
-	color: #202020;
+	color: #000;
 }
 
-.course-link:hover {
-	color: #202020;
+.course-link:hover,
+.course-link:focus {
+	color: #9ed3f3;
 }
 
 @media(max-width:1199px) {
