@@ -156,7 +156,7 @@ a:focus {
 	background: url(../img/mountains.jpg) no-repeat bottom center scroll;
     background-color: #000;
 /*    background-position: center top; */
-    background-position: 50% 8%; 
+    background-position: 50% 7%; 
     -webkit-background-size: cover;
     -webkit-mask-image:-webkit-gradient(linear, left center, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 

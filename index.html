@@ -17,7 +17,7 @@
     <!-- Custom CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
     
-	<link rel="bangicon" href="files/bang.png" />
+	<link rel="icon" href="files/icon.png" />
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -57,7 +57,7 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
           			<li>
-                        <a class="page-scroll" href="#projects">Projects</a>
+                        <a class="page-scroll" href="#projects">Projects & Exp.</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#education">Education</a>
@@ -98,7 +98,7 @@
         	<div class="col-lg-8 col-lg-offset-2">
         		<h2>About Noah Nuechterlein</h2>
         	</div>
-            <div style="float: left; width: 70%; text-align: left";">
+            <div style="float: left; width: 60%; text-align: left";">
            
                 <p>		I am a Junior studying computer science in the school of engineering at the University of Michigan. I am graduating in May of 2016 with my Bachelors degree. <br><br>
                 Though i have done work in a variety of programming languages i am most proficient in C++. Recently my interest in mobile app development through Android has increased greatly thruough attending Hackathon events.  <br><br>
@@ -106,7 +106,19 @@
                 I will be working as an Software Development intern at <a href="http://www.epic.com/">Epic Systems</a> over the Summer of 2015.
                 </p>
             </div>
-            <img src="files/photo.thumbnail.JPG" style="heigt:200px; margin:20px; width:200px"/>
+            <img src="files/photo.thumbnail.JPG" style="border-radius:200px; height:220px; margin:20px; width:270px"/>
+            <div style="float: right; width:35%; font-size: 24px; text-align: left";>
+            	<phead>General Information</phead>            	
+            </div>
+            <div style="float: right; width:35%; text-align: left; padding: 10px 0; font-size: 16px";">
+            	<li>School:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The University of Michigan</li>
+            	<li>Major:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Computer Science in Engineering</li>
+				<li>Grad Date:&nbsp;&nbsp;&nbsp; 	May 2016</li>
+				<li>Job Intrests:&nbsp;		Software Development</li> 
+            	<li>DOB:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12-03-93(age 21)</li>
+            	<li>Citizenship:&nbsp;		United States of America</li>
+            </div> 
+            <!-- Programming Languages, dont know where to put this yet.
             <div style="float: right; width:30%; font-size: 24px";>
                 <phead>Programming Languages<br></phead>
             	<psmall>Ranging from most proficient to "I learned it once" &nbsp;<br></psmall>
@@ -121,6 +133,7 @@
             	<li>HTML/CSS</li>
             	<li>Java</li>
             </div> 
+            -->
         </div>
     </section>
 	
@@ -128,14 +141,21 @@
 	<section id="projects" class="container content-section text-center">
 		<div class="row">
 
-				<h2>Projects</h2>
+				<h2>Projects and Experience</h2>
 				<div style="float: left;text-align: left; width: 50%; padding: 10px 0; font-size: 18";>
 					<phead>Bang!</phead>
-					<p>As part of a team, at Mhacks we designed and developed the Android application "Bang!". Bang was designed such that on a single button press, a random contact from the user's contact list was selected, and paired with a random pickup line from a sqlite database. This pickup line is then automatically sent to the selected contact using Android's SMS Manager. The code for this project can be found on (link this)Github.</p>
+					<p>As part of a team, at Mhacks we designed and developed the Android application "Bang!". Bang was designed such that on a single button press, a random contact from the user's contact list was selected, and paired with a random pickup line from a sqlite database. This pickup line is then automatically sent to the selected contact using Android's SMS Manager. The code for this project can be found on <a href="https://github.com/ncnuech/bang">Github</a>.</p>
 		            <img class="center" src="files/bang.png" style="height:500px; horizontal-margin: 10%; width:300px" >
 				</div>
-				<div style="float: right; width: 50%; padding: 10px 0; font-size: 18";>
-					<p>VLC Localization</p>
+				<div style="float: right;text-align: left; width: 50%; padding: 10px 0; font-size: 18";>
+					<phead>VLC Localization</phead>
+					<p>As part of Professor Dutta's Lab, I implemented a piece of software which found the relative location of a camera to any known lights in the image. The project had a number of steps which follow; <br>
+					1. Setup Led light tubes, which blink at specific, unique frequencies.<br> 
+					2. Start Software side by leveraging openCV to create a bounding rectangle around each "blob" of light in the image(blobs tend to be formed from more than a single light source because of the proximity of the 4 tubes inside of a single box light). <br>
+					3. Finding Changes in frequencies through probing the rectangles with <a href="http://en.wikipedia.org/wiki/Fast_Fourier_transform">FFT</a>s. Using multiple points where the frequency change was over a noise threshold I created a line of best fit between the points minimizing the error while keeping the slope of the rectangle.<br> 
+					4. With all boxes seperated, the code finds the center of each box(the center of each led tube) and takes the frequency at that point. The frequency is then compared to known position and frequency pairs. This is the end of my section of the code. In the implementation, these matches are passed off to angle of arrival calculations which find location relative to each light located in the image. The process is accurate to the decimeter level.
+					</p>
+					<img class="center" src="files/circle.png" style="height:500px; horizontal-margin: 10%; width:300px" >
 				</div>
 		</div>
 	</section>
