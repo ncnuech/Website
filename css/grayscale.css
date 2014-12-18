@@ -41,6 +41,7 @@ phead {
     margin: 0 0 10px;
     font-size: 24px;
     line-height: 1.5;
+    text-align: center;
 }
 psmall {
 	margin:0 0 50px;
@@ -101,7 +102,7 @@ a:focus {
 
 .navbar-custom a {
 
-    font-size: 24px;
+    font-size: 18px;
     color: #000;
 }
 
@@ -148,14 +149,14 @@ a:focus {
 .intro {
     display: table;
     width: 100%;
-    height: auto;
+    height: 50%;
     padding: 100px 0;
     text-align: center;
     color: #fff;
 	background: url(../img/mountains.jpg) no-repeat bottom center scroll;
     background-color: #000;
 /*    background-position: center top; */
-    background-position: 50% 30%; 
+    background-position: 50% 8%; 
     -webkit-background-size: cover;
     -webkit-mask-image:-webkit-gradient(linear, left center, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 
@@ -388,7 +389,11 @@ img::selection {
 img::-moz-selection {
     background: 0 0;
 }
-
+IMG.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
