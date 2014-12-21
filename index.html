@@ -8,9 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Computer Science in Engineering at University of Michigan">
     <meta name="author" content="Noah Nuectherlein">
-
+	
     <title>Noah Nuechterlein</title>
-
+	<!-- This was made with the greyscale template, I would also like to give attribution to Thomas Zachariah, who i stole the idea for the template as well ideas for elements of the design
+		find his website at http://thomaspzachariah.com/ -->
+		
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -29,7 +31,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+	
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -47,7 +49,7 @@
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <div class="collapse navbar-collapse navbar-right navbar-mahttps://github.com/lab11/vlc-localizationin-collapse">
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
@@ -102,8 +104,8 @@
            
                 <p>		I am a Junior studying computer science in the school of engineering at the University of Michigan. I am graduating in May of 2016 with my Bachelors degree. <br><br>
                 Though i have done work in a variety of programming languages i am most proficient in C++. Recently my interest in mobile app development through Android has increased greatly thruough attending Hackathon events.  <br><br>
-                Over the Summer of 2014 I worked in  <a href="http://lab11.eecs.umich.edu/">Lab11</a> with Professor <a href="http://web.eecs.umich.edu/~prabal/">Prabal Dutta</a> on <a href="https://github.com/lab11/vlc-localization">localization research</a>, pinpointing location relative to a layout of LED lights in a room, given an image. The worked was done in python, leveraging openCV.<br><br>
-                I will be working as an Software Development intern at <a href="http://www.epic.com/">Epic Systems</a> over the Summer of 2015.
+                Over the Summer of 2014 I worked in  <a href="http://lab11.eecs.umich.edu/">Lab11</a> with <a href="http://web.eecs.umich.edu/~prabal/">Professor Prabal Dutta</a> on <a href="https://github.com/lab11/vlc-localization">localization research</a>, pinpointing location relative to a layout of LED lights in a room, given an image. The worked was done in python, leveraging openCV.<br><br>
+                I will be working as an Software Development intern at <a href="http://www.epic.com/">Epic</a> over the Summer of 2015.
                 </p>
             </div>
             <img src="files/photo.thumbnail.JPG" style="border-radius:200px; height:220px; margin:20px; width:270px"/>
@@ -111,29 +113,13 @@
             	<phead>General Information</phead>            	
             </div>
             <div style="float: right; width:35%; text-align: left; padding: 10px 0; font-size: 16px";">
-            	<li>School:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The University of Michigan</li>
+            	<li>School:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The University of Michigan</li>
             	<li>Major:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Computer Science in Engineering</li>
 				<li>Grad Date:&nbsp;&nbsp;&nbsp; 	May 2016</li>
 				<li>Job Intrests:&nbsp;		Software Development</li> 
-            	<li>DOB:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12-03-93(age 21)</li>
+            	<li>DOB:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12-03-93(age 21)</li>
             	<li>Citizenship:&nbsp;		United States of America</li>
             </div> 
-            <!-- Programming Languages, dont know where to put this yet.
-            <div style="float: right; width:30%; font-size: 24px";>
-                <phead>Programming Languages<br></phead>
-            	<psmall>Ranging from most proficient to "I learned it once" &nbsp;<br></psmall>
-           	</div>
-            <div style="float: right; width:20%; text-align: left; padding: 10px 0; font-size: 16px";">
-            	<li>C++</li>
-            	<li>C</li>
-            	<li>Python</li>
-            	<li>Android</li>
-            	<li>SQL</li>
-            	<li>Matlab</li>
-            	<li>HTML/CSS</li>
-            	<li>Java</li>
-            </div> 
-            -->
         </div>
     </section>
 	
@@ -142,21 +128,42 @@
 		<div class="row">
 
 				<h2>Projects and Experience</h2>
-				<div style="float: left;text-align: left; width: 50%; padding: 10px 0; font-size: 18";>
+				<div style="float: left;text-align: left; width: 45%; padding: 10px 0; font-size: 18";>
 					<phead>Bang!</phead>
 					<p>As part of a team, at Mhacks we designed and developed the Android application "Bang!". Bang was designed such that on a single button press, a random contact from the user's contact list was selected, and paired with a random pickup line from a sqlite database. This pickup line is then automatically sent to the selected contact using Android's SMS Manager. The code for this project can be found on <a href="https://github.com/ncnuech/bang">Github</a>.</p>
 		            <img class="center" src="files/bang.png" style="height:500px; horizontal-margin: 10%; width:300px" >
 				</div>
-				<div style="float: right;text-align: left; width: 50%; padding: 10px 0; font-size: 18";>
+				
+				<div style="float: right;text-align: left; width: 45%; padding: 10px 0; font-size: 18";>
 					<phead>VLC Localization</phead>
-					<p>As part of Professor Dutta's Lab, I implemented a piece of software which found the relative location of a camera to any known lights in the image. The project had a number of steps which follow; <br>
+					<p>As part of Professor Dutta's Lab, I implemented a piece of software which found the relative location of a camera to any known LED lights in the image. The project had a number of steps which follow. <br>
 					1. Setup Led light tubes, which blink at specific, unique frequencies.<br> 
 					2. Start Software side by leveraging openCV to create a bounding rectangle around each "blob" of light in the image(blobs tend to be formed from more than a single light source because of the proximity of the 4 tubes inside of a single box light). <br>
-					3. Finding Changes in frequencies through probing the rectangles with <a href="http://en.wikipedia.org/wiki/Fast_Fourier_transform">FFT</a>s. Using multiple points where the frequency change was over a noise threshold I created a line of best fit between the points minimizing the error while keeping the slope of the rectangle.<br> 
-					4. With all boxes seperated, the code finds the center of each box(the center of each led tube) and takes the frequency at that point. The frequency is then compared to known position and frequency pairs. This is the end of my section of the code. In the implementation, these matches are passed off to angle of arrival calculations which find location relative to each light located in the image. The process is accurate to the decimeter level.
+					<a href="files/circle.png"><img class="center" src="files/smallcircle.png" style="float: right; height:200px; horizontal-margin: 10%; width:130px" ></a>
+					3. Finding Changes in frequencies through probing the rectangles with <a href="http://en.wikipedia.org/wiki/Fast_Fourier_transform">FFT</a>s. Using multiple points where the frequency change was over a noise threshold I created a line of best fit between the points minimizing the error while keeping the slope of the rectangle.<br>
+					4. With all boxes seperated, the code finds the center of each box(the center of each led tube) and takes the frequency at that point. The frequency is then compared to known position and frequency pairs. This is the end of my section of the code. In the implementation, these matches are passed off to angle of arrival calculations which find location relative to each light located in the image. The process is accurate to the decimeter level. The code can be found on Lab11's <a href="https://github.com/lab11/vlc-localization">Github</a>.
 					</p>
-					<img class="center" src="files/circle.png" style="height:500px; horizontal-margin: 10%; width:300px" >
 				</div>
+				
+				<div style="float: left;text-align: left; width: 45%; padding: 10px 0; font-size: 18";>
+					<phead>Teaching</phead>
+					<p>I will be an instructional aid for EECS: 482(Operating Systems) for the Winter 2015 semester under the direction of <a href="http://web.eecs.umich.edu/~jflinn/">Professor Jason Flinn</a>. As an instructional aid, i will give a weekly discussion to a section of 15-20 students(both Graduate and Undergraduate). I will also hold office hours every week, helping with project questions and debugging. This will be my first time teaching students beyond the frequent peer help i try to give for the classes I am currently taking. </p>
+				</div>
+				
+				<div style="float: right;text-align: left; width: 45%; padding: 10px 0; font-size: 18";>
+        	        <phead>Programming Languages<br></phead>
+        	    	<psmall>Ranging from most proficient to "I learned it once" &nbsp;<br></psmall>
+        	   	</div>
+				<div style="float: right;text-align: left; width: 45%; padding: 10px 0px; font-size: 18";>
+        	    	<li>C++</li>
+        	    	<li>C</li>
+        	    	<li>Python</li>
+        	    	<li>Android</li>
+        	    	<li>SQL</li>
+        	    	<li>Matlab</li>
+        	    	<li>HTML/CSS</li>
+        	    	<li>Java</li>
+        	    </div> 
 		</div>
 	</section>
 	
