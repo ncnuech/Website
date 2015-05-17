@@ -177,22 +177,7 @@
                     
                     <p>----Relevent Current Courses----</p>
                     
-                    	<div class="media col-lg-5 col-lg-offset-1 col-sm-6">
-                        <div class="course-link" style='width:125px; height:125px; border-radius:100px; margin-bottom:20px; background:rgba(255,255,255,.5); color:rgba(0,0,0,.75); vertical-align:middle; display:table-cell; max-height:125px;'>
-                            EECS 376
-                        </div>
-                        <div class="media-body text-left" style="display:table-cell; vertical-align:middle; padding-left:20px;">
-                            <h4 class="media-heading">Foundations of Computer Science</h4>
-                        </div>
-                    </div>
-					<div class="media col-lg-5 col-lg-offset-1 col-sm-6">
-                        <div class="course-link" style='width:125px; height:125px; border-radius:100px; margin-bottom:20px; background:rgba(255,255,255,.5); color:rgba(0,0,0,.75); vertical-align:middle; display:table-cell; max-height:125px;'>
-                            EECS 493
-                        </div>
-                        <div class="media-body text-left" style="display:table-cell; vertical-align:middle; padding-left:20px;">
-                            <h4 class="media-heading">User Interfaces</h4>
-                        </div>
-                    </div>
+                    
                     <p> &nbsp;<br>----Relevent Completed Courses----</p>
 					<div class="media col-lg-5 col-lg-offset-1 col-sm-6">
                         <a class="course-link" style='width:125px; height:125px; border-radius:100px; margin-bottom:20px; background:rgba(255,255,255,.5);  vertical-align:middle; display:table-cell; max-height:125px;'
@@ -264,7 +249,22 @@
                             <h4 class="media-heading">Discrete Math</h4>
                         </div>
                     </div>
-
+					<div class="media col-lg-5 col-lg-offset-1 col-sm-6">
+                        <div class="course-link" style='width:125px; height:125px; border-radius:100px; margin-bottom:20px; background:rgba(255,255,255,.5); color:rgba(0,0,0,.75); vertical-align:middle; display:table-cell; max-height:125px;'>
+                            EECS 376
+                        </div>
+                        <div class="media-body text-left" style="display:table-cell; vertical-align:middle; padding-left:20px;">
+                            <h4 class="media-heading">Foundations of Computer Science</h4>
+                        </div>
+                    </div>
+					<div class="media col-lg-5 col-lg-offset-1 col-sm-6">
+                        <div class="course-link" style='width:125px; height:125px; border-radius:100px; margin-bottom:20px; background:rgba(255,255,255,.5); color:rgba(0,0,0,.75); vertical-align:middle; display:table-cell; max-height:125px;'>
+                            EECS 493
+                        </div>
+                        <div class="media-body text-left" style="display:table-cell; vertical-align:middle; padding-left:20px;">
+                            <h4 class="media-heading">User Interfaces</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
